@@ -1,0 +1,248 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+   background-color: whitesmoke;
+   font-family: 'Times New Roman', Times, serif;
+   color: black;
+   transition: all .4s ease-in-out;
+   background-color: #f9f6f3;
+}
+.main{
+    height:100vh;
+    width:100%;
+}
+nav{
+    width:100%;
+    height:10vh;
+    margin:10px;
+    position: absolute;
+    top:0;
+    left:0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+ nav img {
+     height: 40px; 
+    width: 90px;
+    background-size: cover; 
+}
+nav ul li{
+    list-style: none; 
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-size: 17px;
+    padding: 20px;
+}
+a:hover{
+    color: #d8b459;
+}
+button{
+    background-color: blue;
+    color: white;
+    border:2px solid white;
+    border-radius: 3px;
+    padding: 5px 12px;
+    transition:   0.3s ease-in-out;
+    height: 30px;
+    width: 150px;
+
+}
+.content{
+    height:100vh;
+    width:100%;
+}
+#start{
+    /* height:100vh;
+    width:100%; */
+     display: flex; 
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background-image:url(image30.jpg) ;
+     background-size:cover ;
+}
+.content h1{
+   font-size: 150px;
+   font-weight: 600;
+   transition: .4s;
+   color: #f9f6f3;
+}
+.content h1:hover{
+    -webkit-text-stroke: 1px white;
+    color: transparent;
+}
+.content a{
+    text-decoration: none;
+    font-size: 24px;
+    border: 1px solid white;
+    color:white;
+    border-radius: 40px;
+    padding-left:15px;
+    padding-right: 15px;
+} 
+.content a:hover{
+    background-color:grey;
+}
+#about-me{
+    height:100vh;
+    width:100%;
+    display: flex;
+    background-color:gray;
+}
+.about-image{
+    height:100vh;
+    width:40%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    background-image: url(Aditi.Portfolio.jpg);
+    background-size:cover;
+}
+.about-text{
+    height:100vh;
+    width:60%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    padding:40px; 
+    background-color: #f9f6f3;
+   
+}
+.About-service{
+    height:100vh;
+    width:100%;
+    display: flex;
+}
+.service-text{
+    height:100vh;
+    width:50%;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.service-image{
+    height:100vh;
+    width:50%;
+    background-color: skyblue;
+    background-image: url(image.14.jpg);
+    background-size: cover;
+}
+.About-blog{
+    height:100vh;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    
+}
+.blog{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d8b459; */
+    height:100%;
+    width:100%;
+
+}
+#blog1{
+    background-color: blue;
+}
+#blog2{
+    background-color: white;
+}
+#blog3{
+    background-color: white;
+}
+#blog4{
+    background-color: black;
+}
+.Open-source{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.smt{
+    width:100%;
+    height:40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #d8b459; */
+}
+.swap{
+     height:25vh;
+     width:300px;
+     /* background-color: aquamarine; */
+     border:0.5px solid white;
+     margin:10px;
+     box-shadow: 0 0 5px 5px grey;
+}
+#font1{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 25px;
+
+}
+.swap1{
+    display: flex;
+    padding:15px;
+
+}
+h4{
+    padding-left: 19px;
+    padding-top: 12px;
+    font-size:25px;
+}
+.swap-text{
+    padding-left: 59px;
+    padding-right: 70px;
+    font-size:15px;
+    
+}
+#font1{
+    padding-left:4px;
+    
+}
+#font2{
+    padding-left:59px;
+    font-size:10px;
+}
+.need-help{
+     height:60vh;
+     width:100%;
+     background-color: pink;
+     display: flex;
+     
+     justify-content: center;
+     justify-content: center;
+}
+.help{
+    background-color: #d8b459;
+
+}
+.help-button{
+         
+}
